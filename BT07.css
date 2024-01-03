@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+}
+body{
+    padding: 20px 20px;
+}
+main{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 1px solid black;
+    width: 1000px;
+  }
+div{
+    text-align: center;
+    padding: 2vh;
+    background-color: orange;
+    align-items: center;
+  }

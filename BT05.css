@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 20px 20px;
+}
+.container{
+    width: 1000px;
+    height: 340px;
+    border: 1px solid black;
+    padding: 10px 10px;
+}
+.infor{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+input{
+    height: 36px;
+    width: 600px;
+}
+input::placeholder{
+    position: relative;
+    left: 10px;
+}
+.arr2{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    bottom: 198px;
+}
+textarea::placeholder{
+    padding: 10px 10px;
+}
+.arr3{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    bottom: 180px;
+}
+button{
+    width: 355px;
+    height: 36px;
+    background-color: aqua;
+    border-color: aqua;
+    border-radius: 10px;
+}

@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 20px 20px;
+}
+.main{
+    width: 200px;
+    height: 400px;
+    background-color: rgb(122, 103, 73);
+    padding-top: 10px;
+}
+.icon1,.icon2,.icon3,.icon4,.icon5{
+    width: 150px;
+    height: 30px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    position: relative;
+    left: 25px;
+}
+.icon1:hover{
+    background-color:bisque;
+}
+.icon2:hover{
+    background-color:bisque;
+}
+.icon3:hover{
+    background-color:bisque;
+}
+.icon4:hover{
+    background-color:bisque;
+}
+.icon5:hover{
+    background-color:bisque;
+}

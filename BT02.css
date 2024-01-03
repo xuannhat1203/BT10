@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+    height: 56px;
+    background-color: aquamarine;  
+}
+p{
+    display: inline;
+    padding-left: 10px;
+    line-height: 25px;
+    font-size: 30px;
+    position: relative;
+    top: 20px;
+}
+input{
+    width: 600px;
+    height: 40px;
+    position: relative;
+    bottom: 8px;
+}
+.search{
+    position: relative;
+    left: 300px;
+    bottom: 10px;
+}
+.right{
+    position: relative;
+    left: 1000px;
+    bottom: 70px;
+}
+button{
+    position: relative;
+    height: 34px;
+    width: 34px;
+    right: 48px;
+    bottom: 2px;
+}
+select{
+    position: relative;
+    bottom: 17px;
+    left: 10px;
+    width: 150px;
+}
+.avata{
+    position: relative;
+    left: 1600px;
+    bottom: 90px;
+}
+
+
